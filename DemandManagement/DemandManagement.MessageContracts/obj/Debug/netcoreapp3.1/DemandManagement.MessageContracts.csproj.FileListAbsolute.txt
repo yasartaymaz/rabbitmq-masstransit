@@ -1,0 +1,9 @@
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.deps.json
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.dll
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.pdb
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.csproj.AssemblyReference.cache
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.AssemblyInfoInputs.cache
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.AssemblyInfo.cs
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.csproj.CoreCompileInputs.cache
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.dll
+C:\Users\YasarTaymaz\source\repos\rabbitmq-masstransit\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.pdb
