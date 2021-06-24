@@ -8,7 +8,7 @@ namespace DemandManagement.MessageContracts
 {
     public static class BusConfigurator
     {
-        private static IBusControl ConfigureBus(Action<IRabbitMqBusFactoryConfigurator, IRabbitMqHost> registrationAction = null)
+        public static IBusControl ConfigureBus(Action<IRabbitMqBusFactoryConfigurator, IRabbitMqHost> registrationAction = null)
         {
             return Bus.Factory.CreateUsingRabbitMq(cfg=>
             {

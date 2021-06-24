@@ -12,5 +12,9 @@
     <ProjectReference Include="..\DemandManagement.MessageContracts\DemandManagement.MessageContracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 
 </Project>

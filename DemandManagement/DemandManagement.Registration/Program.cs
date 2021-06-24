@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DemandManagement.MessageContracts;
+using GreenPipes;
+using MassTransit;
+using System;
 
 namespace DemandManagement.Registration
 {
@@ -6,7 +9,31 @@ namespace DemandManagement.Registration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Title = "Registration";
+
+            var bus = BusConfigurator.ConfigureBus((cfg, host) =>
+            {
+                cfg.ReceiveEndpoint(
+                    RabbitMqConsts.RegisterDemandServiceQueue, e =>
+                    {
+                        e.Consumer<RegisterDemandCommandConsumer>();
+                        e.UseCircuitBreaker(cb =>
+                        {
+                            cb.TrackingPeriod = TimeSpan.FromMinutes(1);
+                            cb.TripThreshold = 15;
+                            cb.ActiveThreshold = 10;
+                            cb.ResetInterval = TimeSpan.FromMinutes(5);
+                        });
+                    });
+            });
+
+            bus.StartAsync();
+
+            Console.WriteLine("listening for register demand commands.. " + "press enter to exit");
+
+            Console.ReadLine();
+
+            bus.StopAsync();
         }
     }
 }
